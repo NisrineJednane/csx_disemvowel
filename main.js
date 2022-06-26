@@ -11,7 +11,7 @@ function disemvowel(string) {
       //turn to lowercase to match properties in dictionary are lower case
       let currentLetter = string[i].toLowerCase();
       if (!vowelsList[currentLetter]) {
-        newString += currentLetter;
+        newString += string[i];
       }
     }
     return newString;
